@@ -10,7 +10,7 @@ public class Recv {
 
   public static void main(String[] argv) throws Exception {
     ConnectionFactory factory = new ConnectionFactory();
-    factory.setHost("172.25.0.3");
+    factory.setHost("rabbit");
     Connection connection = factory.newConnection();
     Channel channel = connection.createChannel();
 
